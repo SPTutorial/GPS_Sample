@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GPS_Sample"
+             x:Class="GPS_Sample.MainPage">
+
+    <StackLayout Padding="10">
+        <!-- Place new controls here -->
+        <Button Text="Get Position" BackgroundColor="ForestGreen" TextColor="White" Clicked="GetPosition"/>
+
+        <Label Text="" x:Name="latitude" TextColor="Black"/>
+        <Label Text="" x:Name="longitude" TextColor="Black"/>
+        <Label Text="" x:Name="accuracy" TextColor="Black"/>
+    </StackLayout>
+
+</ContentPage>
